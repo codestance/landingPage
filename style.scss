@@ -1,0 +1,21 @@
+:root{
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.frame{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    gap: 1.5rem;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+.column{
+    display: grid;
+    place-content: center;
+    padding: 1rem 1.5rem;
+}
