@@ -1,9 +1,8 @@
 $headers-color: #182370;
 $headers-accent-color: #284DF8;
 $text-color: #5162B4;
-$bg-color: #E6E7F5;
+$bg-color: #E9EBF6;
 $action-color: #FE9F27;
-E2E3EB
 :root{
     box-sizing: border-box;
     font-family: Roboto;
@@ -12,7 +11,7 @@ E2E3EB
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, #E1E3F2 0%, #FFFFFF 100%);
+    background: center / cover no-repeat url('bg.svg'), linear-gradient(180deg, #E9EBF6 0%, #F3F5FB 49.48%, #F9FAFD 78.12%, #FFFFFF 100%);
 }
 h1, h2{
     color: $headers-color;
@@ -76,7 +75,12 @@ p{
     padding: 1.25rem;
     background-color: white;
     border: #DCDBDC solid 1px;
-    border-radius: 3px;
+    border-radius: 4px;
+    .card-img{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 5px;
+    }
     h2{
         font-size: 1.25rem;
         line-height: 2rem;
